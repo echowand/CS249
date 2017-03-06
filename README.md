@@ -2,19 +2,28 @@
 Mining Information and Social Networks (https://www.kaggle.com/c/outbrain-click-prediction)
 
 ----------------------------------------------------------------------------------------------------------------
-Current Progress:
+WHAT'S UP:
+
 1. Done with Basic classifier (SVM)
+
 2. Done with document-wise feature construction (TF-IDF)
+
 3. Generating categorical features
 
 ----------------------------------------------------------------------------------------------------------------
 TO DO:
 
-Waiting for features generation to be done
-Feature Selection
-Train XGB model on MTV features
-Train FFM model
-Try Ensembling
+1. Waiting for features generation to be done
+
+2. Feature Selection
+
+3. Train XGB model on MTV features
+
+4. Train FFM model
+
+5. Try Ensembling
+
+6. Slides & reports
 
 ----------------------------------------------------------------------------------------------------------------
 Files desciption:
