@@ -14,20 +14,21 @@ from sklearn.metrics import f1_score
 
 # building the data for train
 
-df_all = pd.read_csv('tmp/svm_features_train.csv')
 
 
-text_vec = HashingVectorizer(dtype=np.uint8, n_features=10000000, norm=None,
-                             lowercase=False, binary=True, token_pattern='\\S+',
-                             non_negative=True)
-
-# Uncomment to run with small sample:
-# df_all = pd.read_csv('tmp/svm_features_train.csv', nrows = 800000)
-# df_all = df_all.sample(frac=0.1).reset_index(drop=True)
-# print df_all[:3]
-# text_vec = HashingVectorizer(dtype=np.uint8, n_features=10000, norm=None,
+# Uncomment to run with all sample:
+# df_all = pd.read_csv('tmp/svm_features_train.csv')
+# text_vec = HashingVectorizer(dtype=np.uint8, n_features=10000000, norm=None,
 #                              lowercase=False, binary=True, token_pattern='\\S+',
 #                              non_negative=True)
+
+# Uncomment to run with small sample:
+df_all = pd.read_csv('tmp/svm_features_train.csv', nrows = 80000)
+df_all = df_all.sample(frac=0.2).reset_index(drop=True)
+print df_all[:3]
+text_vec = HashingVectorizer(dtype=np.uint8, n_features=10000, norm=None,
+                             lowercase=False, binary=True, token_pattern='\\S+',
+                             non_negative=True)
 
 t0 = time()
 X = text_vec.transform(df_all.ad_display_str)

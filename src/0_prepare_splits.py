@@ -22,13 +22,14 @@ is_val = df_all.display_id.isin(val_display_ids)
 df_all.loc[is_val, 'fold'] = 1
 df_all.fold = df_all.fold.astype('uint8')
 
+df_all.to_csv('tmp/clicks_train_50_50.csv', index=False)
 feather.write_dataframe(df_all, 'tmp/clicks_train_50_50.feather')
 
 
 # prepare test data
 
-df_test = pd.read_csv("../data/clicks_test.csv")
-df_test.display_id = df_test.display_id.astype('uint32')
-df_test.ad_id = df_test.ad_id.astype('uint32')
+# df_test = pd.read_csv("../data/clicks_test.csv")
+# df_test.display_id = df_test.display_id.astype('uint32')
+# df_test.ad_id = df_test.ad_id.astype('uint32')
 
-feather.write_dataframe(df_test, 'tmp/clicks_test.feather')
+# feather.write_dataframe(df_test, 'tmp/clicks_test.feather')
