@@ -1,0 +1,120 @@
+[15:19:47] Tree method is selected to be 'approx'
+[0]     train-auc:0.735019      val-auc:0.72787
+[1]     train-auc:0.737858      val-auc:0.730838
+[2]     train-auc:0.739521      val-auc:0.732352
+[3]     train-auc:0.740645      val-auc:0.733189
+[4]     train-auc:0.741734      val-auc:0.734111
+[5]     train-auc:0.742276      val-auc:0.734605
+[6]     train-auc:0.74308       val-auc:0.735432
+[7]     train-auc:0.743707      val-auc:0.735857
+[8]     train-auc:0.744275      val-auc:0.736396
+[9]     train-auc:0.74491       val-auc:0.73699
+[10]    train-auc:0.745485      val-auc:0.737444
+[11]    train-auc:0.745914      val-auc:0.737572
+[12]    train-auc:0.746295      val-auc:0.737863
+[13]    train-auc:0.746581      val-auc:0.738057
+[14]    train-auc:0.746897      val-auc:0.738298
+[15]    train-auc:0.747376      val-auc:0.738682
+[16]    train-auc:0.747829      val-auc:0.738958
+[17]    train-auc:0.748272      val-auc:0.739227
+[18]    train-auc:0.748706      val-auc:0.739515
+[19]    train-auc:0.748953      val-auc:0.739721
+
+Feature and score
+('ad_doc_publisher_id_ad_doc_top_entity', 52.64386166666666)
+('ad_doc_top_topic_on_doc_source_id', 50.25220826086956)
+('ad_doc_publisher_id_ad_id', 623.8594728571429)
+('ad_doc_top_topic_campaign_id', 53.28250666666667)
+('ad_doc_top_cat', 30.125217333333335)
+('ad_id_rank', 25.891399999999997)
+('advertiser_id_geo_1', 67.88296199999999)
+('ad_doc_publisher_id_ad_doc_top_cat', 35.47651357142857)
+('ad_doc_source_id_advertiser_id', 38.156203000000005)
+('ad_doc_source_id_rank', 8.78253)
+('ad_doc_top_cat_geo_1', 25.804407499999996)
+('ad_doc_publisher_id_advertiser_id_rank', 15.8101)
+('ad_doc_top_cat_on_doc_source_id', 113.23591055555556)
+('ad_doc_top_cat_geo_2_rank', 32.66157625)
+('ad_doc_publisher_id_campaign_id', 76.29975045454547)
+('ad_doc_publisher_id_ad_document_id', 67.58132846153846)
+('ad_doc_top_cat_geo_2', 18.846932857142857)
+('advertiser_id_geo_2', 24.415299090909084)
+('ad_doc_top_topic_hour_rank', 125.943005)
+('ad_doc_top_entity_hour', 30.5437)
+('ad_doc_publisher_id', 86.12876904761904)
+('ad_doc_top_topic_on_doc_publisher_id', 52.82751724999999)
+('ad_doc_publisher_id_ad_doc_top_topic', 38.32378999999999)
+('ad_doc_source_id', 56.35427)
+('ad_doc_top_cat_on_doc_top_entity', 13.953626000000003)
+('ad_doc_publisher_id_ad_doc_source_id_rank', 44.97298333333333)
+('ad_doc_top_topic_advertiser_id_rank', 5.19877)
+('ad_doc_source_id_geo_0', 56.473409130434796)
+('ad_doc_publisher_id_campaign_id_rank', 19.0781)
+('ad_doc_top_topic_on_doc_top_cat', 5.66837)
+('ad_doc_source_id_ad_document_id_rank', 11.925)
+('ad_doc_top_topic_on_doc_top_entity', 25.742675)
+('advertiser_id_geo_2_rank', 16.196886666666668)
+('ad_doc_source_id_ad_doc_top_topic', 46.316863)
+('ad_doc_publisher_id_ad_document_id_rank', 34.873375)
+('ad_doc_top_topic_day_rank', 230.79382038834953)
+('ad_doc_top_topic_campaign_id_rank', 7.68994)
+('ad_doc_top_topic_ad_document_id_rank', 14.850219485714286)
+('ad_doc_top_topic_hour', 10.447040000000001)
+('ad_doc_source_id_on_doc_publisher_id', 2321.834968780488)
+('ad_doc_source_id_on_doc_source_id', 3382.7392751515144)
+('ad_doc_top_entity_ad_document_id_rank', 10.69451)
+('ad_doc_source_id_hour', 27.66621333333333)
+('ad_doc_publisher_id_ad_doc_top_entity_rank', 11.0155)
+('ad_doc_top_cat_platform', 31.52301)
+('ad_doc_top_topic_on_doc_publisher_id_rank', 182.62730000000005)
+('ad_doc_top_entity_day', 30.81951)
+('ad_doc_top_topic_rank', 29.063750000000002)
+('ad_doc_source_id_on_doc_top_topic', 47.4047)
+('ad_document_id_rank', 73.6579)
+('ad_doc_source_id_campaign_id', 576.1053773913044)
+('advertiser_id_geo_1_rank', 15.486326666666665)
+('ad_doc_source_id_on_doc_top_entity', 83.4612)
+('ad_doc_top_cat_on_doc_top_cat', 20.90330442857143)
+('ad_doc_publisher_id_day_rank', 45.302341999999996)
+('ad_doc_source_id_ad_doc_top_topic_rank', 65.0597)
+('ad_doc_publisher_id_geo_1_rank', 34.3322)
+('ad_doc_top_entity_ad_doc_top_topic_rank', 56.30008285714286)
+('ad_doc_publisher_id_geo_2', 10.8181)
+('ad_doc_top_entity_geo_2', 8.2275425)
+('ad_doc_top_entity_geo_0', 55.023422222222216)
+('ad_doc_top_entity_geo_1', 7.897786666666666)
+('ad_doc_top_entity_ad_id', 264.27445625)
+('ad_doc_top_topic_ad_id_rank', 7.05373)
+('ad_doc_publisher_id_day', 110.22540000000001)
+('ad_doc_top_entity_ad_document_id', 229.51250625000003)
+('ad_doc_source_id_ad_document_id', 76.53044142857142)
+('ad_doc_source_id_on_doc_top_cat', 63.901174117647045)
+('ad_doc_top_topic_geo_0_rank', 459.5106066666665)
+('ad_doc_source_id_ad_id_rank', 36.8603)
+('ad_doc_publisher_id_geo_1', 21.521)
+('ad_doc_publisher_id_geo_0', 42.321695999999996)
+('ad_doc_publisher_id_ad_doc_source_id', 62.00990740740742)
+('ad_doc_source_id_day', 70.0101108695652)
+('ad_doc_top_topic_geo_0', 81.2204)
+('ad_doc_publisher_id_rank', 67.8682)
+('ad_doc_top_entity', 41.4309)
+('ad_doc_source_id_ad_id', 300.04821052631587)
+('ad_doc_publisher_id_hour', 50.58223000000001)
+('ad_doc_top_entity_ad_id_rank', 27.66343)
+('ad_doc_publisher_id_advertiser_id', 41.02528235294118)
+('ad_doc_top_entity_day_rank', 15.7696)
+('ad_doc_publisher_id_ad_id_rank', 8.624533333333334)
+('ad_doc_top_cat_on_doc_top_topic', 63.51135000000001)
+('ad_doc_top_topic_advertiser_id', 30.196649999999995)
+('ad_doc_top_topic_on_document_id', 54.11149823529413)
+('ad_doc_publisher_id_ad_doc_top_topic_rank', 22.059736153846156)
+('ad_doc_publisher_id_ad_doc_top_cat_rank', 38.06991133333334)
+('ad_doc_top_entity_geo_1_rank', 18.6034)
+('ad_doc_top_entity_ad_doc_top_topic', 35.3034)
+('ad_doc_top_cat_on_document_id', 156.55874122448978)
+('ad_doc_top_cat_geo_1_rank', 86.85132392857142)
+92 -> 39
+Done loading mtv 360.213871956 sec
+Selected features: (39)
+ad_doc_publisher_id_ad_doc_top_entity,ad_doc_top_topic_on_doc_source_id,ad_doc_publisher_id_ad_id,ad_doc_top_topic_campaign_id,advertiser_id_geo_1,ad_doc_top_cat_on_doc_source_id,ad_doc_publisher_id_campaign_id,ad_doc_publisher_id_ad_document_id,ad_doc_top_topic_hour_rank,ad_doc_publisher_id,ad_doc_top_topic_on_doc_publisher_id,ad_doc_source_id,ad_doc_source_id_geo_0,ad_doc_top_topic_day_rank,ad_doc_source_id_on_doc_publisher_id,ad_doc_source_id_on_doc_source_id,ad_doc_top_topic_on_doc_publisher_id_rank,ad_document_id_rank,ad_doc_source_id_campaign_id,ad_doc_source_id_on_doc_top_entity,ad_doc_source_id_ad_doc_top_topic_rank,ad_doc_top_entity_ad_doc_top_topic_rank,ad_doc_top_entity_geo_0,ad_doc_top_entity_ad_id,ad_doc_publisher_id_day,ad_doc_top_entity_ad_document_id,ad_doc_source_id_ad_document_id,ad_doc_source_id_on_doc_top_cat,ad_doc_top_topic_geo_0_rank,ad_doc_publisher_id_ad_doc_source_id,ad_doc_source_id_day,ad_doc_top_topic_geo_0,ad_doc_publisher_id_rank,ad_doc_source_id_ad_id,ad_doc_publisher_id_hour,ad_doc_top_cat_on_doc_top_topic,ad_doc_top_topic_on_document_id,ad_doc_top_cat_on_document_id,ad_doc_top_cat_geo_1_rank
+
