@@ -71,3 +71,6 @@ C=0.1, took 14324.763s, auc=0.734, prec=0.600, f1=0.164
 
 - `8_line_classifiers.py` Using the LINE embedding feature vectors (tmp/) to train other models. 
 ----------------------------------------------------------------------------------------------------------------
+Cite: 
+- https://github.com/alexeygrigorev
+- https://github.com/tangjianpku/LINE
