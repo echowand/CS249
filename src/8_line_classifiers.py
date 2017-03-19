@@ -25,8 +25,8 @@ def get_label_dict():
 	return label_dict
 
 def load():
-	mat = np.loadtxt("../LINE/vec_1st_wo_norm.txt", skiprows = 1, usecols = range(1,129))
-	ids = np.loadtxt("../LINE/vec_1st_wo_norm.txt", skiprows = 1, usecols = (0), dtype = 'int')
+	mat = np.loadtxt("tmp/vec_1st_wo_norm.txt", skiprows = 1, usecols = range(1,129))
+	ids = np.loadtxt("tmp/vec_1st_wo_norm.txt", skiprows = 1, usecols = (0), dtype = 'int')
 	label_dict = get_label_dict()
 	labels = []
 	for i in ids:

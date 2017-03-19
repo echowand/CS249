@@ -97,18 +97,3 @@ np.save('predictions/svm_0_preds.npy', y_pred)
 
 print('C=%s, took %.3fs, auc=%.3f, prec=%.3f, f1=%.3f' % (C, (time() - t0), auc, prec, f1))
 
-
-# predictions for test
-
-# df_test = pd.read_csv('tmp/svm_features_test.csv')
-#
-# t0 = time()
-# X_test = text_vec.transform(df_test.ad_display_str)
-#
-# print('building the test matrix took %.4fm' % (time() - t0) / 60)
-#
-# pred_0 = model_0.decision_function(X_test)
-# pred_1 = model_1.decision_function(X_test)
-# pred_final = (pred_0 + pred_1) / 2
-#
-# np.save('predictions/svm_test_preds.npy', pred_final)
