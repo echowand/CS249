@@ -67,4 +67,7 @@ C=0.1, took 14324.763s, auc=0.734, prec=0.600, f1=0.164
 
 - `7_ensemble_xgb.py` traings the second level XGB model on top of all these features
 
+- `8_gen_net_line.py` Generate the (display+adid) - (ad_docid) - (display+adid) network for LINE input, mapped to index
+
+- `8_line_classifiers.py` Using the LINE embedding feature vectors (tmp/) to train other models. 
 ----------------------------------------------------------------------------------------------------------------
